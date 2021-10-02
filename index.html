@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="tables-section">
+        <div class="table-box">
+            <table class="first-table">
+                <tbody>
+                <tr>
+                    <td>X</td>
+                    <td>Y</td>
+                    <td></td>
+                </tr>
+                <tr class="input-row">
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="x-input"/>
+                    </td>
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="y-input"/>
+                    </td>
+                    <td>
+                        <button onclick="deleteRow(this)">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <button class="bottom-table-btn" onclick="addNewRow(this)">Add</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <canvas class="graph"></canvas>
+        </div>
+        <div class="table-box">
+            <table class="second-table">
+                <tbody>
+                <tr>
+                    <td>X</td>
+                    <td>Y</td>
+                    <td></td>
+                </tr>
+                <tr class="input-row">
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="x-input"/>
+                    </td>
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="y-input"/>
+                    </td>
+                    <td>
+                        <button onclick="deleteRow(this)">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <button class="bottom-table-btn" onclick="addNewRow(this)">Add</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <canvas class="graph"></canvas>
+        </div>
+        <div class="table-box">
+            <table class="third-table">
+                <tbody>
+                <tr>
+                    <td>X</td>
+                    <td>Y</td>
+                </tr>
+                <tr class="input-row">
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="x-input"/>
+                    </td>
+                    <td>
+                        <input onchange="setInputLimit(this, -100, 100)" class="y-input"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button class="bottom-table-btn" onclick="calculate(this)">Calculate</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <canvas class="graph"></canvas>
+        </div>
+    </section>
+</body>
+<footer>
+    <script type="text/javascript" src="draw_graph.js"></script>
+    <script type="text/javascript" src="table_actions.js"></script>
+</footer>
+</html>

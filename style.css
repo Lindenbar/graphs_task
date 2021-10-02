@@ -1,0 +1,34 @@
+body.no-scroll {
+    position:  fixed;
+    overflow-y: scroll;
+}
+
+/* Tables style */
+.tables-section {
+    display: flex;
+}
+
+.table-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-table-btn {
+    width: 100%;
+}
+
+/* Graphs style */
+.graph {
+    border: 1px solid black;
+    background-color: lemonchiffon;
+    transition: 0.3s;
+}
+
+.graph:hover {
+    background-color: #f5f2dc;
+}
+
+.graph:active {
+    cursor: grab;
+}
