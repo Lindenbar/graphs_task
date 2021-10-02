@@ -8,7 +8,7 @@ X, Y, Delete. Ячейки в колонках X и Y должны быть
 #### У третьей таблицы должно быть 2 колонки:
 X, Y. Внизу третий таблицы должна находится кнопка Calculate.
 
-![table_example](https://github.com/Lindenbar/my_private_storage/blob/main/images_for_github_readme.md/tables_example.PNG)
+![table_example](https://github.com/Lindenbar/graphs_task/blob/main/examples/tables_example.PNG)
 
 <p align="center">Пример внешнего вида трех таблиц.</p>
 
